@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//updateds
 class Journal extends StatefulWidget {
   const Journal({Key? key}) : super(key: key);
 
