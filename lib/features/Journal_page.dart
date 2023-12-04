@@ -177,6 +177,7 @@ class _Journal_State extends State<Journal> {
               ),
             ),
             Container(
+              //jimar
               margin: const EdgeInsets.all(8.0),
               child: SizedBox(
                 width: double.infinity,
