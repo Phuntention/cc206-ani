@@ -2,6 +2,7 @@ import 'package:cc206_ani/features/Dashboard_page.dart';
 import 'package:cc206_ani/features/analytics_page.dart';
 import 'package:cc206_ani/features/marketplace.dart';
 import 'package:cc206_ani/features/chat_page.dart';
+import 'package:cc206_ani/features/Journal_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/analytics': (context) => const AnalyticsPage(),
         '/marketplace': (context) => const Marketplace(),
         '/chatbot': (context) => const Chatbot(),
+        '/Journal': (context) => const Journal(),
       },
     );
   }

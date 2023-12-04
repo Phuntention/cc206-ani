@@ -275,23 +275,7 @@ class _DashboardState extends State<Dashboard> {
                       ),
                       InkWell(
                         onTap: () {
-                          showModalBottomSheet(
-                            context: context,
-                            builder: (BuildContext context) {
-                              return Container(
-                                height: 200,
-                                child: const Center(
-                                  child: Text(
-                                    'Sorry! This feature is not available yet.',
-                                    style: TextStyle(
-                                      fontSize: 24,
-                                      fontFamily: "Poppins",
-                                    ),
-                                  ),
-                                ),
-                              );
-                            },
-                          );
+                          Navigator.pushNamed(context, '/Journal');
                         },
                         child: Container(
                           width: 100,
